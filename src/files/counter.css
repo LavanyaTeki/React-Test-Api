@@ -1,0 +1,77 @@
+
+
+.counterContainer{
+    /* background-color: blue; */
+    width:100%;
+    height: 140px;
+    /* box-shadow: 1px 5px 10px #aaaaaa; */
+}
+.counterWrapper{
+    background-color: #e3e1e1;
+    width: 70%;
+    margin: auto;
+    height: 100%;
+    border-radius: .5em;
+    box-shadow: 1px 5px 10px #ededed;
+}
+ .counterClass{   
+    padding-top: 3%;
+    
+}
+.color{
+    color:rgb(239, 5, 247);
+}
+
+
+.increment {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: .2em;
+    margin-right: 2%;
+    cursor: pointer;
+    box-shadow: 1px 5px 10px #aaaaaa;
+  }
+  .increment:active{
+    background-color:#266101;
+  }  
+  .reset {
+    background-color: #ff6955; 
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: .2em;
+    margin-left: 2%;
+    cursor: pointer;
+    box-shadow: 1px 5px 10px #aaaaaa;
+  } 
+  .reset:active{
+    background-color:#ffc800;
+  }  
+  .jokesContainer{
+       height: 500px;
+        width: 70%;
+        margin:auto;
+        overflow-y: scroll;
+  }
+  .jokesWrapper{
+    background: #e4e4e4;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 1px 5px 10px #ededed;
+  }
+  .jokesWrapper p{
+    padding: .3em;
+  }
+  ::-webkit-scrollbar {
+    width: 2px;
+  }
